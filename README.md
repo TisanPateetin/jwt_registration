@@ -30,13 +30,13 @@ CREATE TABLE [test].[user] (
 	
 # Config Enveronment	
 - Created .env file config as follows :
-HOST=localhost
-PORT=7000
-DB_HOST=<<Edit  hostname database >>
-DB_DB=<<Edit  name database>>
-DB_USERNAME=<<Edit username database>>
-DB_PASSWORD=<<Edit Password password>>
-SECRET_KEY=)}i43/Z_X:<CE?G
+	HOST=localhost
+	PORT=7000
+	DB_HOST=<<Edit  hostname database >>
+	DB_DB=<<Edit  name database>>
+	DB_USERNAME=<<Edit username database>>
+	DB_PASSWORD=<<Edit Password password>>
+	SECRET_KEY=)}i43/Z_X:<CE?G
 	
 # Script built project	
 - terminal  :  $npm run  tsoa:gen
