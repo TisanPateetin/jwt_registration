@@ -1,0 +1,17 @@
+{
+    "swagger": {
+        "specVersion":3,
+        "outputDirectory": "./src/swagger",
+        "entryFile": "./src/server.ts",
+        "host": "localhost:7000"  
+    },
+    "routes": {
+        "basePath": "/",
+        "entryFile": "./src/server.ts",
+        "routesDir": "./src/routes",
+        "authenticationModule": "./src/authentication.ts",
+        "controllerPathGlobs": ["./src/controllers/*.ts"]
+
+    }
+ }
+ 
