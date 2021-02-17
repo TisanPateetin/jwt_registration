@@ -61,7 +61,7 @@ CREATE TABLE [test].[user] (
 # Install  library 	
 - terminal : $npm install
 	
-# Config Enveronment	
+# Config environment	
 - Created .env file config as follows :
 - HOST=localhost
 - PORT=7000
