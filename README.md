@@ -98,3 +98,6 @@ CREATE TABLE [test].[user] (
 --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6Mjc4LCJpc3N1ZWQiOjE2MTE1ODMxNzcwNDgsImV4cGlyZXMiOjE2MTE1ODQwNzcwNDh9.pW7dFb6RJhStCHRsnNUAS3I7g2yhAa513mqel7xYWMJAKBKhMgut57DnB5kim1Y8GcW4Li10xa9kLif1ULowow'
 	</div>
 
+# Test Case
+<p>Document Test Case: <a href="/Register-diagram.png">Click</a></p>	
+
