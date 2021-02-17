@@ -99,5 +99,5 @@ CREATE TABLE [test].[user] (
 	</div>
 
 # Test Case
-<p>Document Test Case: <a href="/Register-diagram.png">Click</a></p>	
+<p>Download document test Case: <a href="/test%20case.xlsx">Click</a></p>	
 
