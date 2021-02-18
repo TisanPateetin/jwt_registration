@@ -1,7 +1,5 @@
 const { sql, poolPromise, executeSql } = require('../db');
 import { Provides } from "typescript-ioc";
-var Password = require("node-php-password");
-import apiException from '../domain/response/ApiException';
 import {  StringBuilder } from 'typescript-string-operations';
 @Provides(UserService)
 export class UserService {
