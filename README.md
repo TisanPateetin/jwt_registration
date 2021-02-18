@@ -101,3 +101,22 @@ CREATE TABLE [test].[user] (
 # Test Case
 <p>Download document test Case: <a href="/test%20case.xlsx">Click</a></p>	
 
+# Unit Test 
+- Run Jest Unit Test
+- terminal  :  $npm run test:watch
+
+# Case User Registration
+- Error Failed Invalid data when register save
+- Error Failed Registration save rejected not match  alphanumeric string that may include _ and – having a length of 3 to 16 characters`, async () => {
+- Error Failed Registration save rejected not match alphanumeric string a length of 3 to 200 characters
+- Error Registration save rejected not match 10 digit phone number
+- Error Failed Registration save rejected not match email pattern
+- Error Registration save rejected To check a password between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter
+- Error Failed Registration save rejected due to duplicate username
+- ErrorRegistration save rejected due to duplicate email
+- Registration save rejected member type classify from salary less than 15,000
+- Registration : Success
+
+# Case User Infomation
+- Failed error invalid token
+- Get user infomation success
