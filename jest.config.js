@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverageFrom: [
-      "src/controllers/**.ts",
-      "src/services/**.ts"
+      "src/controllers/**.ts"
+      // "src/services/**.ts"
     ],
     roots: ['<rootDir>/src'],
     transform: {
