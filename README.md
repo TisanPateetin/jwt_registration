@@ -104,10 +104,14 @@ CREATE TABLE [test].[user] (
 # Unit Test 
 - Run Jest Unit Test
 - terminal  :  $npm run test:watch
-
+ <div>
+ <img src="/Result_unit_test.png" />
+ <img src="/Path_unit_test.png" />
+ <div/>
+	
 # Case User Registration
 - Error Failed Invalid data when register save
-- Error Failed Registration save rejected not match  alphanumeric string that may include _ and – having a length of 3 to 16 characters`, async () => {
+- Error Failed Registration save rejected not match  alphanumeric string that may include _ and – having a length of 3 to 16 characters
 - Error Failed Registration save rejected not match alphanumeric string a length of 3 to 200 characters
 - Error Registration save rejected not match 10 digit phone number
 - Error Failed Registration save rejected not match email pattern
