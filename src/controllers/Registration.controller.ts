@@ -35,7 +35,7 @@ export class RegistrationController extends Controller {
     @Post()
     @OperationId('registration_register')
     public async postRegister(
-        @Request() request: express.Request,
+       // @Request() request: express.Request,
         @Body() registerRequest: RegistrationRegisterRequest
     ): Promise<RegistrationRegisterResponse> {
         console.log(`['Register'] request : ${JSON.stringify(pick(registerRequest, ['name', 'register_code', 'surname', 'email', 'mobile', 'username', 'token']))}`)
