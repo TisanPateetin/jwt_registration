@@ -99,7 +99,7 @@ export class RegistrationController extends Controller {
                 // Password between 6 to 20 characters,
                 // which contain at least one numeric digit,
                 // One uppercase and one lowercase letter
-            const regPassword = /^[A-Za-z]\w{7,14}$/g;
+           const regPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,20}$/g;
             if (!regPassword.test(registerRequest.password)) {
                 throw new apiException('password_failed', 'Registration save rejected To check a password between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter', HttpStatus.BAD_REQUEST)
             }
